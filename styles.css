@@ -1,0 +1,165 @@
+
+/* body stuff */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background: linear-gradient(to right top, #5cdb95, #edf5e1 70%);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* nav styles */
+
+#navbar {
+    position: fixed;
+    text-align: center;
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: #05386b;
+    background-color: #05386b;
+  }
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #05386b;
+  }
+  
+.nav-item {
+    
+  }
+  
+.nav-link {
+    display: block;
+    color: #edf5e1;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+  }
+  
+.nav-link:hover {
+    background-color: #379683;
+  }
+
+nav header {
+    font-size: 2em;
+    background-color: #379683;
+    color: #edf5e1;
+}
+
+/* main and main-sections styles */
+
+main {
+    margin: 5% 5% 0px 25%;
+    width: 65%;
+    box-sizing: border-box;
+
+}
+
+.main-section {
+
+}
+
+.main-section header {
+    font-size: 2.5em;
+    border-top: 4px solid rgba(5,56,107, 70%);
+    padding: 10px;
+    border-radius: 2%;
+}
+
+/* images styles */
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    
+}
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row img {
+    width: 100%;
+}
+.row {
+  margin-bottom: 50px;
+}
+
+img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .img-div {
+    float: right;
+    width: 40%;
+    margin: 6%;
+}
+
+.img-div::after {
+  content: "";
+  clear: both;
+  display: table;
+ */
+
+.img-div {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+p {
+  margin: 2em;
+}
+
+/* code style */
+
+form {
+  padding: 2em;
+}
+code {
+  font-family: inherit;
+}
+
+
+/* media querys! */
+
+@media (max-width: 1300px) {
+
+  main {
+    margin-left: 300px;
+  }
+
+  .img-div {
+    width: 80%;
+  }
+
+  
+}
+
+@media (max-width: 700px) {
+
+  #navbar {
+    display: none;
+  }
+
+  main {
+    margin: auto;
+  }
+
+  .img-div {
+    width: 100%;
+  }
+}
