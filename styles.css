@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body {
-    background-color: #5cdb95;
+    background: linear-gradient(to right top, #5cdb95, #edf5e1 70%);
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -54,5 +54,23 @@ nav header {
     color: #edf5e1;
 }
 
-/* section styles */
+/* main and main-sections styles */
 
+main {
+    margin: 5% 5% 0px 25%;
+    width: 65%;
+
+}
+
+.main-section {
+
+}
+
+.main-section header {
+    font-size: 2.5em;
+    border-top: 4px solid rgba(5,56,107, 70%);
+    padding: 10px;
+    border-radius: 2%;
+}
+
+/* media querys! */
