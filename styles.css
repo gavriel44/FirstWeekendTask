@@ -59,6 +59,7 @@ nav header {
 main {
     margin: 5% 5% 0px 25%;
     width: 65%;
+    box-sizing: border-box;
 
 }
 
@@ -134,3 +135,31 @@ code {
 
 
 /* media querys! */
+
+@media (max-width: 1300px) {
+
+  main {
+    margin-left: 300px;
+  }
+
+  .img-div {
+    width: 80%;
+  }
+
+  
+}
+
+@media (max-width: 700px) {
+
+  #navbar {
+    display: none;
+  }
+
+  main {
+    margin: auto;
+  }
+
+  .img-div {
+    width: 100%;
+  }
+}
