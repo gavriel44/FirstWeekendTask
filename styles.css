@@ -73,4 +73,52 @@ main {
     border-radius: 2%;
 }
 
+/* images styles */
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    
+}
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row img {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .img-div {
+    float: right;
+    width: 40%;
+    margin: 6%;
+}
+
+.img-div::after {
+  content: "";
+  clear: both;
+  display: table;
+ */
+
+.img-div {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+p {
+  margin: 2em;
+}
+
+
 /* media querys! */
