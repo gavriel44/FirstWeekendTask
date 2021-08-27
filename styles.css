@@ -92,6 +92,9 @@ main {
 .row img {
     width: 100%;
 }
+.row {
+  margin-bottom: 50px;
+}
 
 img {
     width: 100%;
@@ -118,6 +121,15 @@ img {
 
 p {
   margin: 2em;
+}
+
+/* code style */
+
+form {
+  padding: 2em;
+}
+code {
+  font-family: inherit;
 }
 
 
